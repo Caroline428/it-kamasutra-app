@@ -1,0 +1,12 @@
+.Content {
+    grid-area: c;
+    background-color: antiquewhite;
+}
+
+.Posts {
+    background-color: burlywood;
+}
+
+.Item {
+    color: greenyellow;
+}
