@@ -1,0 +1,8 @@
+.Item {
+    color: #2f39ff;
+}
+
+.Item img {
+    width: 60px;
+    border-radius: 100%
+}
