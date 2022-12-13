@@ -4,19 +4,16 @@ import './App.css';
 
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
-import Profile from "./components/Profile/Profile";
-import Dialogs from "./components/Dialogs/Dialogs";
+import AllRoutes from "./components/PageRoutes";
 
 const App = () => {
     return (
         <div className='AppWrapper'>
             <Header/>
             <Navbar/>
-            <div class='AppWrapper__Content'>
-                <Dialogs/>
+            <div className='AppWrapper__Content'>
+                <AllRoutes/>
             </div>
-
-            {/*<Profile/>*/}
         </div>
     );
 }
