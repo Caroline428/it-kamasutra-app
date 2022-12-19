@@ -1,24 +1,25 @@
 import React from "react";
-
 import s from './Navbar.module.css';
 
-const Navbar = ()  => {
+import NavLink from '../CoreComponents/NavLink'
+
+const Navbar = () => {
     return (
         <nav className={s.Nav}>
             <div className={s.Item}>
-                <a href="/profile">Profile</a>
+                <NavLink to="/profile" title={"Profile"}/>
             </div>
             <div className={s.Item}>
-                <a href="/dialogs">Messages</a>
+                <NavLink to="/dialogs" title={"Messages"}/>
             </div>
-            <div className={`${s.Item} ${s.Active}`}>
-                <a href="/news">News</a>
-            </div>
-            <div className={s.Item}>
-                <a href="/music">Music</a>
+            <div className={`${s.Item}`}>
+                <NavLink to="/news" title={"News"}/>
             </div>
             <div className={s.Item}>
-                <a href="/settings">Settings</a>
+                <NavLink to="/music" title={"Music"}/>
+            </div>
+            <div className={s.Item}>
+                <NavLink to="/settings" title={"Settings"}/>
             </div>
         </nav>
     )

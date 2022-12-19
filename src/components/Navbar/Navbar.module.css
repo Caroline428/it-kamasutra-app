@@ -1,12 +1,9 @@
 .Nav {
     grid-area: n;
     background-color: aqua;
+    padding: 10px
 }
 
 .Item {
-    color: white
-}
-
-.Item.Active {
-    color: gold;
+    padding: 5px
 }

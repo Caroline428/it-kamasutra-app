@@ -1,0 +1,9 @@
+.Active {
+    color: #0015ff;
+    text-decoration: none;
+}
+
+.Inactive {
+    color: white;
+    text-decoration: none;
+}
