@@ -7,7 +7,7 @@ import Music from "./pages/Music/Music";
 
 const AllRoutes = () => (
     <Routes>
-        <Route path='/dialogs' element={<Dialogs/>}/>
+        <Route path='/dialogs*' element={<Dialogs/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/settings' element={<Settings/>}/>

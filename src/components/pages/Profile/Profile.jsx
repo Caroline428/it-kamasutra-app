@@ -2,16 +2,11 @@ import React from "react";
 
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => (
-    <div>
-        <div>
-            <img
-                src="https://weblinks.ru/wp-content/uploads/2022/02/Krasivye-kartinki-leta-na-zastavku-telefona-1.jpg"/>
-        </div>
-        <div>
-            ava + desc
-        </div>
+    <div className={s.Profile}>
+        <ProfileInfo/>
         <MyPosts/>
     </div>
 )
